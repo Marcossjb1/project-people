@@ -1,9 +1,6 @@
 package src.projectpeople;
 
 public class People {
-
-  //Todo: create properties for class people: name, age, nacionality, SSN, address
-  //Todo: should create getters and setters
     public String name;
     public String age;
     public String nacionality;
