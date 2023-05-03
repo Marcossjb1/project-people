@@ -5,6 +5,9 @@ public class People {
     public String age;
     public String nacionality;
     public String ssn;
+
+    //TODO: put a class address as type variable
+    //TODO: create legal person and natural person class(class LegalPerson = variable CNPJ, class NaturalPerson = CPF)
     public String address;
 
     public String getName() {
