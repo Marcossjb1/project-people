@@ -5,7 +5,6 @@ public class People {
     public String age;
     public String nacionality;
     public String ssn;
-
     public Address address;
 
     public String getName() {
