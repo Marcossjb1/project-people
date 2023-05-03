@@ -6,9 +6,7 @@ public class People {
     public String nacionality;
     public String ssn;
 
-    //TODO: put a class address as type variable
-    //TODO: create legal person and natural person class(class LegalPerson = variable CNPJ, class NaturalPerson = CPF)
-    public String address;
+    public Address address;
 
     public String getName() {
         return name;
@@ -42,11 +40,11 @@ public class People {
         this.ssn = ssn;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 }
