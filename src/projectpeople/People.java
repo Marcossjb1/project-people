@@ -5,7 +5,8 @@ public class People {
     public String age;
     public String nacionality;
     public String ssn;
-    public String address;
+
+    public Address address;
 
     public String getName() {
         return name;
@@ -39,11 +40,11 @@ public class People {
         this.ssn = ssn;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 }
