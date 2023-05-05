@@ -6,9 +6,9 @@ public class LegalPerson extends People {
 
     public String validatorCnpj(String cnpj){
         if (cnpj.length() != 14){
-            return  "CNPJ invalid";
+            return  "::::::::CNPJ invalid::::::::";
         }else {
-            return  "CNPJ valid";
+            return  "::::::::CNPJ valid::::::::";
         }
     }
 
