@@ -4,11 +4,11 @@ public class NaturalPerson extends People {
 
     public String cpf;
 
-    public String validatorCpf(String cnpj){
-        if (cnpj.length() != 14){
-            return  "CPF invalid";
+    public String validatorCpf(String cpf){
+        if (cpf.length() != 11){
+            return  "::::::::CPF invalid::::::::";
         }else {
-            return  "CPF valid";
+            return  "::::::::CPF valid::::::::";
         }
     }
 
